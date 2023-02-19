@@ -1,5 +1,6 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
+import { AntDesign } from "@expo/vector-icons";
 
 export default function MemoList() {
   return (
@@ -10,7 +11,7 @@ export default function MemoList() {
           <Text style={styles.momoListItemDate}>2023年2月18日 18:30</Text>
         </View>
         <View>
-          <Text>X</Text>
+          <AntDesign name="close" size={16} color="#848484" />
         </View>
       </View>
       <View style={styles.memoListItem}>
@@ -19,7 +20,7 @@ export default function MemoList() {
           <Text style={styles.momoListItemDate}>2023年2月18日 18:30</Text>
         </View>
         <View>
-          <Text>X</Text>
+          <AntDesign name="close" size={16} color="#848484" />
         </View>
       </View>
       <View style={styles.memoListItem}>
@@ -28,7 +29,7 @@ export default function MemoList() {
           <Text style={styles.momoListItemDate}>2023年2月18日 18:30</Text>
         </View>
         <View>
-          <Text>X</Text>
+          <AntDesign name="close" size={16} color="#848484" />
         </View>
       </View>
     </View>
